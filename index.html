@@ -4,47 +4,860 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Project</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div className="landing">
-      <header>
-        <div class="bg-div">
-          <a href="#header" class="brand"> Bobby <span class="circle"></span></a>
-          <nav>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Specialization</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Prices</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
+    <div class="navbar-area">
+      <div class="container">
+        <nav class="site-navbar">
+          <a href="#home" class="site-logo">Bobby.</a>
+
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Specialization</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <button class="nav-toggler">
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <!-- navbar-area end -->
+    <div class="landing">
+      <div class="hero-text">
+        <h1 class="header-text">
+          Welcome to angry <br /><strong>Bobby</strong>
+        </h1>
+        <p class="bobby">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+        </p>
+        <p class="spacebar-text">Get in touch</p>
+      </div>
+    </div>
+
+    <div class="maincontainer">
+      <section id="about" class="about bgc-light-gray">
+        <div class="container">
+          <div class="row-baseline row">
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <i
+                  class="fa fa-lightbulb"
+                  style="font-size: 60px; color: grey"
+                ></i>
+                <h3>Best company</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <i
+                  class="fa fa-layer-group"
+                  style="font-size: 60px; color: grey"
+                ></i>
+                <h3>Great support</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <i
+                  class="fa fa-chess-knight"
+                  style="font-size: 60px; color: grey"
+                ></i>
+                <h3>10 years experience</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <i
+                  class="fa fa-list-ul"
+                  style="font-size: 60px; color: grey"
+                ></i>
+                <h3>200 + services</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
-        <img className="logo" src="./images/header.jpg" />
-        <div className="hero-text">
-          <h1 className="header-text">
-            Welcome to angry <strong>Bobby</strong>
-          </h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-          <p className="spacebar-text">Get in touch</p>
+      </section>
+
+      <div class="Aboutbox">
+        <h2 class="abouttext">What we do?</h2>
+        <p class="text-mute">
+          It is a long established fact that a reader will be distracted by the
+          readable<br />
+          content of a page when looking at its layout.
+        </p>
+      </div>
+      <div class="container">
+        <div class="about bgc-white">
+          <div class="row-baseline row">
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <h4><span>S</span>eo optimization</h4>
+                <p class="text-mute">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <h4><span>F</span>rontend coding</h4>
+                <p class="text-mute">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <h4><span>D</span>esign</h4>
+                <p class="text-mute">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+              <div class="media-body">
+                <h4><span>A</span>dobe photoshop</h4>
+                <p class="text-mute">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="video-section" class="video-section">
+      <div class="masked">
+        <div class="container">
+          <div class="row">
+            <header class="center">
+              <i class="fas fa-photo-video"></i>
+              <h2 class="section-title">
+                Watch our<br />
+                video
+              </h2>
+              <p class="text-muted">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br />
+                Lorem Ipsum has been the industry's standard dummy text ever
+              </p>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="specialization-section" class="specialization-section">
+      <div class="container">
+        <div class="row">
+          <header class="center">
+            <h2 class="header_s">Specialization.</h2>
+            <p class="s_text">
+              It is a long established fact that a reader will be distracted by
+              the readable<br />
+              content of a page when looking at its layout.
+            </p>
+          </header>
         </div>
 
+        <div class="section-content">
+          <div class="row-baseline row">
+            <div class="col-baseline col-md-4">
+              <i class="fa fa-user" style="font-size: 60px; color: #ffed91"></i>
+              <h3>Creative team</h3>
+              <p class="text-muted text-justify">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+            <div class="col-baseline col-md-4">
+              <i
+                class="fa fa-file-alt"
+                style="font-size: 60px; color: #ffed91"
+              ></i>
+              <h3>Well documented</h3>
+              <p class="text-muted text-justify">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+            <div class="col-baseline col-md-4">
+              <i
+                class="fa fa-file-powerpoint"
+                style="font-size: 60px; color: #ffed91"
+              ></i>
+              <h3>Smart code</h3>
+              <p class="text-muted text-justify">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <div class="row-spec row">
+          <div class="col-spec col-sm-6">
+            <div class="progress-header">
+              <h4>
+                <span class="pull-left">Design</span>
+                <span class="pull-right">50%</span>
+              </h4>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 50%"
+              ></div>
+            </div>
+          </div>
+          <div class="col-spec col-sm-6">
+            <div class="progress-header">
+              <h4>
+                <span class="pull-left">Adobe photoshop</span>
+                <span class="pull-right">60%</span>
+              </h4>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 60%"
+              ></div>
+            </div>
+          </div>
+          <div class="col-spec col-sm-6">
+            <div class="progress-header">
+              <h4>
+                <span class="pull-left">Coding</span>
+                <span class="pull-right">70%</span>
+              </h4>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 70%"
+              ></div>
+            </div>
+          </div>
+          <div class="col-spec col-sm-6">
+            <div class="progress-header">
+              <h4>
+                <span class="pull-left">Seo optimization</span>
+                <span class="pull-right">80%</span>
+              </h4>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 80%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="container">
+        <div class="row">
+          <header class="center">
+            <h2 class="header_t">Bobby's team.</h2>
+            <p class="t_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever
+            </p>
+          </header>
 
+          <div class="pers">
+            <div class="pe">
+              <img src="./images/team/1.jpg" alt="" />
+              <div class="p-name">Gabriel Walker</div>
+              <div class="p-des">Designer</div>
+              <div class="p-sm">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
 
-        <!-- JS, Popper.js, and jQuery -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <div class="pe">
+              <img src="./images/team/2.jpg" alt="" />
+              <div class="p-name">Julie Banks</div>
+              <div class="p-des">Manager</div>
+              <div class="p-sm">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="pe">
+              <img src="./images/team/3.jpg" alt="" />
+              <div class="p-name">Jake Coleman</div>
+              <div class="p-des">Programmer</div>
+              <div class="p-sm">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="pe">
+              <img src="./images/team/1.jpg" alt="" />
+              <div class="p-name">Bobby Austin</div>
+              <div class="p-des">Director</div>
+              <div class="p-sm">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <header class="center">
+            <h2 class="header_s">All features.</h2>
+            <p class="s_text">
+              It is a long established fact that a reader will be distracted by
+              the readable<br />
+              content of a page when looking at its layout.
+            </p>
+          </header>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-chess-knight"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Branded design</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-laptop-code"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Fully Responsive</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-puzzle-piece"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Easy to customize</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i class="fa fa-tools" style="font-size: 60px; color: grey"></i>
+              <h3>Clean and smart code</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-envelope-open"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Working send form</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i class="fa fa-mobile" style="font-size: 60px; color: grey"></i>
+              <h3>Bootstrap 3.3.5</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-motorcycle"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Google font</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-pencil-alt"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Elegant font</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-section" class="savenow">
+      <div class="masked">
+        <div class="container">
+          <div class="row">
+            <header class="center">
+              <i class="fas fa-photo-video"></i>
+              <h2 class="section-title">Get start now and save 30%</h2>
+              <p class="text-muted">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever
+              </p>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <section class="op-section op-eight-section section" id="section5">
+        <div class="ocean-2">
+          <div class="wave-2"></div>
+          <div class="wave-2"></div>
+        </div>
+        <div class="section-eight">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-3">
+                <div class="container-pe-quote left">
+                  <div class="pp-quote li-quote-1">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Ben-1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pp-quote li-quote-2">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Ben-2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pp-quote li-quote-3">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Ben-3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sec-eight-text-area">
+                  <!-- <img class="" src="assets/images/website/Nana-4.png" alt="">
+                  <h1>MADGE JENNINGS</h1> -->
+
+                  <div class="container-dp-name">
+                    <div class="box-dpname dp-name-1 hide-dp-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Ben-1.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-2 hide-dp-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Ben-2.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-3 hide-dp-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Ben-3.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-4 hide-dp-bottom">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Nana-4.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-5 hide-dp-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Nana-2.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-6 hide-dp-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Nana-3.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+
+                    <div class="box-dpname dp-name-7 look">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/Nana-1.png"
+                        alt=""
+                      />
+                      <h1>MADGE JENNINGS</h1>
+                    </div>
+                  </div>
+                  <!-- <img class="" src="assets/images/website/quote.png" alt="">		    							
+                  <p>Whether you enjoy city breaks or extended holidays in the sun, you
+                  can always improve your travel experiences by staying in a small,
+                  charming hotel, where the atmosphere is welcoming and friendly and
+                </p> -->
+                  <div class="container-quote">
+                    <div class="quote quote-text-1 hide-top">
+                      <img
+                        class=""
+                        src="assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-2 hide-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-3 hide-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-4 hide-bottom">
+                      <img
+                        class=""
+                        src="assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-5 hide-top">
+                      <img
+                        class=""
+                        src="assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-6 hide-top">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                    <div class="quote quote-text-7 show">
+                      <img
+                        class=""
+                        src="http://nanaetben.fr/animation/assets/images/website/quote.png"
+                        alt=""
+                      />
+                      <p>
+                        Whether you enjoy city breaks or extended holidays in
+                        the sun, you can always improve your travel experiences
+                        by staying in a small, charming hotel, where the
+                        atmosphere is welcoming and friendly and
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <div class="container-pe-quote right">
+                  <div class="pp-quote li-quote-4">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Nana-4.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pp-quote li-quote-5">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Nana-2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pp-quote li-quote-6">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Nana-3.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pp-quote li-quote-7 active">
+                    <img
+                      src="http://nanaetben.fr/animation/assets/images/website/Nana-1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="Contacts">
+      <div class="container">
+        <div class="row">
+          <header class="center">
+            <h2 class="header_s">Contacts.</h2>
+            <p class="s_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever
+            </p>
+          </header>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fas fa-mobile-alt"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Branded design</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i
+                class="fa fa-envelope-open"
+                style="font-size: 60px; color: grey"
+              ></i>
+              <h3>Fully Responsive</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i class="fa fa-map-pin" style="font-size: 60px; color: grey"></i>
+              <h3>Easy to customize</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <div class="col-box col-baseline text-center col-sm-6 col-lg-3">
+            <div class="media-body">
+              <i class="fa fa-globe" style="font-size: 60px; color: grey"></i>
+              <h3>Clean and smart code</h3>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+              </p>
+            </div>
+          </div>
+          <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+          <div
+            class="contmap"
+            style="overflow: hidden; height: 550px; width: 100%"
+          >
+            <div id="gmap_canvas" style="height: 100%; width: 100%"></div>
+            <div>
+              <small
+                ><a href="http://embedgooglemaps.com">
+                  embed google maps
+                </a></small
+              >
+            </div>
+            <div>
+              <small
+                ><a href="http://freedirectorysubmissionsites.com/"
+                  >free web directories</a
+                ></small
+              >
+            </div>
+            <style>
+              #gmap_canvas img {
+                max-width: none !important;
+                background: none !important;
+              }
+            </style>
+          </div>
+          <script type="text/javascript">
+            function init_map() {
+              var myOptions = {
+                zoom: 14,
+                center: new google.maps.LatLng(
+                  19.075314480255834,
+                  72.88153973865361
+                ),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+              };
+              map = new google.maps.Map(
+                document.getElementById("gmap_canvas"),
+                myOptions
+              );
+              marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(
+                  19.075314480255834,
+                  72.88153973865361
+                ),
+              });
+              infowindow = new google.maps.InfoWindow({
+                content: "<strong>My Location</strong><br>mumbai<br>",
+              });
+              google.maps.event.addListener(marker, "click", function () {
+                infowindow.open(map, marker);
+              });
+              infowindow.open(map, marker);
+            }
+            google.maps.event.addDomListener(window, "load", init_map);
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Landing page section -->
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
   </body>
 </html>
-
-
-
